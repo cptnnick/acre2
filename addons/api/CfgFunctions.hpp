@@ -88,6 +88,11 @@ class CfgFunctions {
             PATHTO_FNC(babelSetSpeakingLanguage);
             PATHTO_FNC(babelAddLanguageType);
         };
+        class Events {
+            PATHTO_FNC(addEventHandler);
+            PATHTO_FNC(removeEventHandler);
+            PATHTO_FNC(removeAllEventHandlers);
+        };
     };
 
 
